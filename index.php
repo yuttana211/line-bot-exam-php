@@ -10,7 +10,7 @@
 
 	$messages = [];
 	$messages['replyToken'] = $replyToken;
-	$messages['messages'][0] = getFormatTextMessage("ใครฟะ ไม่รู้จัก");
+	$messages['messages'][0] = getFormatTextMessage("หล่อ ตรงไหนแวะ");
 
 	$encodeJson = json_encode($messages);
 
