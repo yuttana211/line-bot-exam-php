@@ -10,7 +10,7 @@
 
 	$messages = [];
 	$messages['replyToken'] = $replyToken;
-	$messages['messages'][0] = getFormatTextMessage("เซล ติงต๊อง");
+	$messages['messages'][0] = getFormatTextMessage("ต้องการไรฟะ");
 
 	$encodeJson = json_encode($messages);
 
